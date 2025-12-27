@@ -4,6 +4,10 @@ using NUnit.Framework;
 namespace TermProject2.Tests
 {
     [TestFixture]
+    /*
+     These tests verify the correct behavior of the generic stack implementation.
+     The tests check stack initialization, push, pop, and peek operations, as well as exception handling for invalid operations such as popping from an empty stack or pushing a null value.
+     */
     public class StackTests
     {
         [Test]
